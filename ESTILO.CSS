@@ -1,0 +1,135 @@
+body {
+    background: #212121  url(./IMG/fondo.jpeg);;  ;
+        color: #fff;
+        font-family: "intro_head_rbase", Helvetica, Verdana;
+        font-size: 1em;
+
+    font-family: 'aguanteregular';
+    src: url('aguante-regular-webfont.woff2') format('woff2'),
+         url('aguante-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+header {
+    background: #A93226 ;
+    color: #AED6F1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 500;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu-item a {
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-item a:hover,
+.dropdown-toggle:hover {
+    background-color: #4BE3A0 ;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%;
+    left: 0;
+}
+
+.dropdown-menu li {
+    display: block;
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #B2BABB;
+}
+
+.menu-item:hover .dropdown-menu {
+    display: block;
+}
+
+main {
+    padding: 80px 20px 20px; /* Ajustar para dar espacio a la barra de navegación fija */
+}
+
+section {
+    background: white;
+	color: #FFF;
+	font-family: "intro_head_rbase", Helvetica, Verdana;
+	font-size: 1em;
+}
+
+h1 {
+    color: #0e0e0e;
+}
+
+p {
+    color: #666;
+}
+
+aside {
+    background-color: #A93226 ;
+    left: 100px;
+    padding: 10px;
+    margin-top: 20px;
+    border-left: 4px solid #333;
+}
+
+footer {
+    background-color: #A93226 ;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+article {
+    background-color: #AED6F1; /* Color de fondo del article */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Opcional: bordes redondeados */
+}
+.image-left {
+    float: left;
+    margin-right: 10px;
+}
+.container {
+    overflow: auto; /* Clearfix para contener los elementos flotantes */
+}
